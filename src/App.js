@@ -8,8 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> wtf.
+          Edit <code>src/App.js</code>
         </p>
+        <h2>Hello World</h2>
         <p>
           bye null
         </p>
