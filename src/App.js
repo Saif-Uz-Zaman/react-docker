@@ -10,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code>
         </p>
-        <h2>Hello World</h2>
+        <h2>Hello React</h2>
         <p>
           bye null
         </p>
