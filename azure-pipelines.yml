@@ -26,6 +26,6 @@ stages:
         command: buildAndPush
         repository: $(imageRepository)
         dockerfile: $(dockerfilePath)
-        containerRegistry: $(TEST_SELISE_ACR)
+        containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
