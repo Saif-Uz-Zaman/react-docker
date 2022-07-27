@@ -26,6 +26,10 @@ pipeline {
       steps {
         container('docker') {
           git branch: 'master', changelog: false, poll: false, url: 'https://github.com/Saif-Uz-Zaman/react-docker.git'
+          sh 'ls'
+          sh 'docker -v'
+          sh 'docker ps'
+          sh 'docker build -t ss69261/testing-image:latest .'
         }
       }
     }
