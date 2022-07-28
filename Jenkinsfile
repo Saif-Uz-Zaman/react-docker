@@ -4,7 +4,6 @@ pipeline {
       inheritFrom {
         id = "worker"
       }
-    }
       // yaml '''
       //   apiVersion: v1
       //   kind: Pod
