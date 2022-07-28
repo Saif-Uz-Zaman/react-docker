@@ -1,7 +1,10 @@
 pipeline {
   agent {
     kubernetes {
-      label 'app=jenkins'
+      inheritFrom {
+        id = "worker"
+      }
+    }
       // yaml '''
       //   apiVersion: v1
       //   kind: Pod
