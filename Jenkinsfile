@@ -1,9 +1,9 @@
 pipeline {
   agent {
-    kubernetes {
-      inheritFrom {
-        id = "kubernetes-pipeline"
-      }
+    worker {
+      // inheritFrom {
+      //   id = "kubernetes-pipeline"
+      // }
       // yaml '''
       //   apiVersion: v1
       //   kind: Pod
